@@ -1,0 +1,25 @@
+# Ignorar tudo por padrão
+*
+
+# Permitir arquivos essenciais para o Docker
+!Dockerfile
+!docker-compose.yml
+!.dockerignore
+
+# Diretórios e arquivos do projeto (ajuste conforme sua linguagem/framework)
+!src/
+!package.json
+!requirements.txt
+
+# Exceções específicas
+!.gitignore
+!README.md
+
+# Ignorar diretórios desnecessários para a imagem
+.git/
+node_modules/
+.env
+.vscode/
+.idea/
+logs/
+tmp/

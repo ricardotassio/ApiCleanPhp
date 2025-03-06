@@ -1,0 +1,25 @@
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDE/Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependências e builds
+node_modules/
+dist/
+build/
+*.exe
+*.dll
+
+# Logs e databases
+*.log
+*.sqlite
+*.db
+
+# Variáveis de ambiente
+.env
+.env.local
