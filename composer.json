@@ -1,0 +1,16 @@
+{
+    "name": "ricardotassio/api-clean-php",
+    "description": "App with clean arch",
+    "authors": [
+        {
+            "name": "Ricardo Tassio",
+            "email": "ricardotassio@gmail.com"
+        }
+    ],
+    "autoload":{
+      "psr-4": {
+        "Core\\":"src/Core/"
+        }
+    },
+    "require": {}
+}
